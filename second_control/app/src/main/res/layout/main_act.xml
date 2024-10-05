@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    >
+
+    <Button
+        android:id="@+id/onTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/pastel_grey_green"
+        android:text="Задача п. 1"
+        android:onClick="onFirstTask"
+        android:layout_margin="24dp"
+        />
+    <Button
+        android:id="@+id/onLabEight"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/pastel_grey_green"
+        android:layout_margin="24dp"
+        android:onClick="onLabEight"
+        android:text="Eight lab"
+        />
+    <Button
+        android:id="@+id/onSecondLab"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/pastel_grey_green"
+        android:layout_margin="24dp"
+        android:onClick="onLabEight"
+        android:text="Second lab"
+        />
+</LinearLayout>

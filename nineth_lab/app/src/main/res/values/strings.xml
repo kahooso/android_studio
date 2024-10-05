@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ninth-lab</string>
+    <string name="preferences">my_preferences</string>
+    <string name="int_element">int_element</string>
+    <string name="first_string_element">first_string_element</string>
+    <string name="second_string_element">second_string_element</string>
+</resources>

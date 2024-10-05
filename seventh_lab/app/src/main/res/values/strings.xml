@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">fifth_proj</string>
+    <string name="add">add</string>
+    <string name="copy">copy</string>
+    <string name="first_text_view">first_text_view</string>
+    <string name="second_text_view">second_text_view</string>
+
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="black">black</string>
+    
+    <string name="red_green">Red-Green</string>
+    <string name="yellow_blue">Yellow-Blue</string>
+    <string name="black_white">Black-White</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="clear">Clear</string>
+    <string name="open_first_activity">Open first activity</string>
+    <string name="open_second_activity">Open second activity</string>
+    <string name="second_activity">Second activity</string>
+    <string name="back">back</string>
+    <string name="third_activity">Third activity</string>
+    <string name="open_activity">open activity</string>
+    <string name="edittext">EditText</string>
+    <string name="edit_text">Edit text</string>
+    <string name="add_to_first_list">Add to first list</string>
+    <string name="add_to_second_list">Add to second list</string>
+</resources>

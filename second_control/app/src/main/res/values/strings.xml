@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">clappy-first-lab</string>
+    <string name="first_button">first</string>
+    <string name="second_button">then second</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">second_lab</string>
+    <string name="add">add</string>
+    <string name="copy">copy</string>
+    <string name="first_text_view">first_text_view</string>
+    <string name="second_text_view">second_text_view</string>
+</resources>

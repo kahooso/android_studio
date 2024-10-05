@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="first_list_xml">
+        <item>Yes1</item>
+        <item>Yes2</item>
+        <item>Yes3</item>
+        <item>Yes4</item>
+    </string-array>
+
+    <string-array name="second_list_xml">
+        <item>No1</item>
+        <item>No2</item>
+        <item>No3</item>
+        <item>No4</item>
+        <item>No5</item>
+    </string-array>
+</resources>

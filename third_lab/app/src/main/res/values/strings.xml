@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">second_lab</string>
+    <string name="add">add</string>
+    <string name="copy">copy</string>
+    <string name="first_text_view">first_text_view</string>
+    <string name="second_text_view">second_text_view</string>
+
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="black">black</string>
+    
+    <string name="red_green">Red-Green</string>
+    <string name="yellow_blue">Yellow-Blue</string>
+    <string name="black_white">Black-White</string>
+</resources>

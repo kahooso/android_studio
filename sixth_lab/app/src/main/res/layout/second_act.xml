@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical">
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/second_activity"
+        android:textAllCaps="true"
+        android:textSize="64sp"
+        android:layout_weight="1"
+        android:id="@+id/second_activity_text_view"
+        />
+    <Button
+        android:id="@+id/second_activity_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="onBackButton"
+        android:text="@string/back"
+        android:textSize="64sp"
+        android:textAllCaps="true"
+        />
+</LinearLayout>
