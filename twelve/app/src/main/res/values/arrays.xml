@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_names">
+        <item>Light Pink</item>
+        <item>Mint Green</item>
+        <item>Sky Blue</item>
+        <item>White</item>
+    </string-array>
+
+    <integer-array name="color_values">
+        <item>0xffaaf6b3</item>
+        <item>0xffd0ffd0</item>
+        <item>0xff9adcff</item>
+        <item>0xffffffff</item>
+    </integer-array>
+</resources>

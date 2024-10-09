@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="32sp"
+    android:padding="16dp"
+    android:elevation="4dp"
+    android:textAlignment="center"
+    android:textFontWeight="@integer/material_motion_duration_long_2"
+    >
+</TextView>
