@@ -10,10 +10,19 @@
     <Button
         android:id="@+id/choose_button"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="256dp"
         android:background="@color/teal_200"
         android:textAlignment="center"
         android:text="@string/choose_your_color"
         android:onClick="chooseColor"
+        />
+    <Button
+        android:id="@+id/third_button"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:background="@color/teal_200"
+        android:textAlignment="center"
+        android:text="@string/third_activity"
+        android:onClick="onThirdButton"
         />
 </LinearLayout>
