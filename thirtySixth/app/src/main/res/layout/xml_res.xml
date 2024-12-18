@@ -1,0 +1,102 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:paddingEnd="4dp">
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/solana"
+                android:contentDescription="Currency Logo"
+                android:layout_marginBottom="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingEnd="4dp">
+
+            <TextView
+                android:id="@+id/charCode"
+                android:layout_width="48sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="USD"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingEnd="4dp">
+
+            <TextView
+                android:id="@+id/curPokup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:drawableRight="@drawable/ar_red"
+                android:drawablePadding="4dp" />
+        </LinearLayout>
+
+        <!-- Столбик с курсом продажи -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/curProd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:drawableRight="@drawable/ar_red"
+                android:drawablePadding="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/valuteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solana"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

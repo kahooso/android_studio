@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Побирчев Н.А. 42919/7</string>
+    <string name="add_note">Add Note</string>
+    <string name="enter_your_note">Enter your note</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_content">Enter content</string>
+    <string name="time_placeholder">Time: Not set</string>
+    <string name="date_not_set">Date: Not set</string>
+    <string name="select_date_and_time">Select date and time</string>
+    <string name="clear_database">Clear Database</string>
+</resources>
